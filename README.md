@@ -44,10 +44,15 @@ Font use [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font).
 
 ![it](docs/preview/it.png)
 
+
+## References
+
+- [Aseprite Docs - Extensions - Themes](https://aseprite.org/docs/extensions/themes)
+
 ## License
 
 Theme under the [Creative Commons Attribution 4.0 International License](data/LICENSE.txt).
 
 Fonts under the [SIL OPEN FONT LICENSE Version 1.1](data/fonts/OFL.txt).
 
-Build scripts under the [MIT License](LICENSE).
+Scripts under the [MIT License](LICENSE).
