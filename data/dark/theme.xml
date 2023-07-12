@@ -7,9 +7,10 @@
         <author name="Aseprite Quest" url="https://github.com/aseprite-quest" />
     </authors>
     <fonts>
-        <font name="Fusion Pixel" type="truetype" antialias="false" file="../fonts/fusion-pixel-10px-proportional.ttf" />
-        <font id="default" font="Fusion Pixel" size="10" />
-        <font id="mini" font="Fusion Pixel" size="10" />
+        <font name="fusion-pixel-10px-proportional" type="truetype" antialias="false" file="../fonts/fusion-pixel-10px-proportional.ttf" />
+        <font name="fusion-pixel-8px-proportional" type="truetype" antialias="false" file="../fonts/fusion-pixel-8px-proportional.ttf" />
+        <font id="default" font="fusion-pixel-10px-proportional" size="10" />
+        <font id="mini" font="fusion-pixel-8px-proportional" size="8" />
     </fonts>
     <dimensions>
         <dim id="scrollbar_size" value="12" />
