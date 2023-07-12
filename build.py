@@ -9,19 +9,19 @@ logger = logging.getLogger('build')
 
 project_root_dir = os.path.dirname(__file__)
 data_dir = os.path.join(project_root_dir, 'data')
-build_dir = os.path.join(project_root_dir, 'build')
+releases_dir = os.path.join(project_root_dir, 'build', 'releases')
 
 
 def main():
-    if os.path.exists(build_dir):
-        shutil.rmtree(build_dir)
-    os.makedirs(build_dir)
+    if os.path.exists(releases_dir):
+        shutil.rmtree(releases_dir)
+    os.makedirs(releases_dir)
 
     package_json_file_path = os.path.join(data_dir, 'package.json')
     with open(package_json_file_path, 'r', encoding='utf-8') as file:
-        version = json.loads(file.read())['version']
+        version: str = json.loads(file.read())['version']
 
-    extension_file_path = os.path.join(build_dir, f'unified-pixel-theme-v{version}.aseprite-extension')
+    extension_file_path = os.path.join(releases_dir, f'unified-pixel-theme-v{version}.aseprite-extension')
     with zipfile.ZipFile(extension_file_path, 'w') as file:
         for file_dir, _, file_names in os.walk(data_dir):
             for file_name in file_names:
