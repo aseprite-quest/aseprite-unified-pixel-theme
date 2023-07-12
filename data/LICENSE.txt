@@ -1,6 +1,10 @@
-Aseprite Default Theme
-Copyright (C) 2009-2017 David Capello and Ilija Melentijevic
-http://www.aseprite.org/
+Aseprite Unified Pixel Theme
+
+https://github.com/aseprite-quest/aseprite-unified-pixel-theme
+
+Based on Aseprite Default Theme
+
+https://github.com/aseprite/aseprite/tree/main/data/extensions/aseprite-theme
 
 This work is licensed under the Creative Commons Attribution 4.0
 International License. To view a copy of this license, visit
