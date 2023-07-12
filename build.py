@@ -1,7 +1,11 @@
 import json
+import logging
 import os
 import shutil
 import zipfile
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger('build')
 
 project_root_dir = os.path.dirname(__file__)
 data_dir = os.path.join(project_root_dir, 'data')
@@ -26,7 +30,7 @@ def main():
                 file_path = os.path.join(file_dir, file_name)
                 arc_path = file_path.removeprefix(f'{data_dir}/')
                 file.write(file_path, arc_path)
-                print(f"Pack file: '{arc_path}'")
+                logger.info(f"Pack file: '{arc_path}'")
 
 
 if __name__ == '__main__':
