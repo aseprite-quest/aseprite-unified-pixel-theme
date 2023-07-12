@@ -3,12 +3,27 @@
   "displayName": "Unified Pixel Theme",
   "description": "Aseprite multilingual supported pixel theme, based on default theme.",
   "version": "0.0.0",
-  "author": { "name": "Aseprite Quest", "url": "https://github.com/aseprite-quest" },
+  "author": {
+    "name": "Aseprite Quest",
+    "url": "https://github.com/aseprite-quest"
+  },
   "contributors": [
-    { "name": "David Capello", "url": "http://davidcapello.com/" },
-    { "name": "Ilija Melentijevic", "url": "http://ilkke.blogspot.com/" },
-    { "name": "Nicolas Desilets", "url": "https://twitter.com/MapleGecko" },
-    { "name": "TakWolf", "url": "https://takwolf.com" }
+    {
+      "name": "David Capello",
+      "url": "http://davidcapello.com/"
+    },
+    {
+      "name": "Ilija Melentijevic",
+      "url": "http://ilkke.blogspot.com/"
+    },
+    {
+      "name": "Nicolas Desilets",
+      "url": "https://twitter.com/MapleGecko"
+    },
+    {
+      "name": "TakWolf",
+      "url": "https://takwolf.com"
+    }
   ],
   "publisher": "Aseprite Quest",
   "license": "CC-BY-4.0",
@@ -17,8 +32,16 @@
   ],
   "contributes": {
     "themes": [
-      { "id": "unified-pixel-light", "path": ".", "variant": "Light" },
-      { "id": "unified-pixel-dark", "path": "./dark", "variant": "Dark" }
+      {
+        "id": "unified-pixel-light",
+        "path": ".",
+        "variant": "Light"
+      },
+      {
+        "id": "unified-pixel-dark",
+        "path": "./dark",
+        "variant": "Dark"
+      }
     ]
   }
 }
