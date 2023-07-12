@@ -2,7 +2,7 @@
 
 [![Releases](https://img.shields.io/github/v/release/aseprite-quest/aseprite-unified-pixel-theme)](https://github.com/aseprite-quest/aseprite-unified-pixel-theme/releases)
 
-[Aseprite](https://github.com/aseprite/aseprite) multilingual supported pixel theme, based on default theme.
+[Aseprite](https://github.com/aseprite/aseprite) multilingual supported pixel theme, based on [default theme](https://github.com/aseprite/aseprite/tree/main/data/extensions/aseprite-theme).
 
 Font use [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font).
 
