@@ -6,6 +6,10 @@
 
 Font use [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font).
 
+## Usage
+
+Download the latest version `.aseprite-extension` file in the [Releases](https://github.com/aseprite-quest/aseprite-unified-pixel-theme/releases), and then follow the [Documentation](https://www.aseprite.org/docs/extensions/) to install it.
+
 ## Preview
 
 ### English
@@ -44,15 +48,14 @@ Font use [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font).
 
 ![it](docs/preview/it.png)
 
-
 ## References
 
 - [Aseprite Docs - Extensions - Themes](https://aseprite.org/docs/extensions/themes)
 
 ## License
 
-Theme under the [Creative Commons Attribution 4.0 International License](data/LICENSE.txt).
+Theme is under the [Creative Commons Attribution 4.0 International License](data/LICENSE.txt).
 
-Fonts under the [SIL OPEN FONT LICENSE Version 1.1](data/fonts/OFL.txt).
+Fonts are under the [SIL OPEN FONT LICENSE Version 1.1](data/fonts/OFL.txt).
 
-Scripts under the [MIT License](LICENSE).
+Scripts are under the [MIT License](LICENSE).
