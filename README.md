@@ -48,6 +48,10 @@ Download the latest version `.aseprite-extension` file in the [Releases](https:/
 
 ![it](docs/preview/it.png)
 
+## Dependencies
+
+- [Requests](https://github.com/psf/requests)
+
 ## References
 
 - [Aseprite Docs - Extensions - Themes](https://aseprite.org/docs/extensions/themes)
