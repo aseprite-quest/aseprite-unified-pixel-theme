@@ -46,7 +46,7 @@ def main():
     latest_version = _get_github_releases_latest_tag_name(repository_name)
     if current_version == latest_version:
         return
-    logger.info(f"Need update fonts: '{latest_version}'")
+    logger.info("Need update fonts: '%s'", latest_version)
 
     download_dir = os.path.join(cache_dir, repository_name, latest_version)
     if not os.path.exists(download_dir):
@@ -61,17 +61,17 @@ def main():
         asset_file_path = os.path.join(download_dir, asset_file_name)
         if not os.path.exists(asset_file_path):
             asset_url = f'{repository_url}/releases/download/{latest_version}/{asset_file_name}'
-            logger.info(f"Start download: '{asset_url}'")
+            logger.info("Start download: '%s'", asset_url)
             _download_file(asset_url, asset_file_path)
         else:
-            logger.info(f"Already downloaded: '{asset_file_path}'")
+            logger.info("Already downloaded: '%s'", asset_file_path)
 
         asset_unzip_dir = os.path.join(fonts_dir, str(font_size))
         if os.path.exists(asset_unzip_dir):
             shutil.rmtree(asset_unzip_dir)
         with zipfile.ZipFile(asset_file_path) as file:
             file.extractall(asset_unzip_dir)
-        logger.info(f"Unzip: '{asset_unzip_dir}'")
+        logger.info("Unzip: '%s'", asset_unzip_dir)
 
     version_info = {
         'repository_url': repository_url,
@@ -81,7 +81,7 @@ def main():
     with open(version_file_path, 'w', encoding='utf-8') as file:
         file.write(json.dumps(version_info, indent=2, ensure_ascii=False))
         file.write('\n')
-    logger.info(f"Update version file: '{version_file_path}'")
+    logger.info("Update version file: '%s'", version_file_path)
 
 
 if __name__ == '__main__':

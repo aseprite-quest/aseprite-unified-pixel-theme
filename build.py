@@ -30,7 +30,7 @@ def main():
                 file_path = os.path.join(file_dir, file_name)
                 arc_path = file_path.removeprefix(f'{data_dir}/')
                 file.write(file_path, arc_path)
-                logger.info(f"Pack file: '{arc_path}'")
+                logger.info("Pack file: '%s'", arc_path)
 
 
 if __name__ == '__main__':
