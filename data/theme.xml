@@ -7,9 +7,8 @@
     </authors>
     <fonts>
         <font name="fusion-pixel-10px-proportional" type="truetype" antialias="false" file="./fonts/10/fusion-pixel-10px-proportional-zh_hans.ttf" />
-        <font name="fusion-pixel-8px-proportional" type="truetype" antialias="false" file="./fonts/8/fusion-pixel-8px-proportional-zh_hans.ttf" />
         <font id="default" font="fusion-pixel-10px-proportional" size="10" />
-        <font id="mini" font="fusion-pixel-8px-proportional" size="8" />
+        <font id="mini" font="fusion-pixel-10px-proportional" size="10" />
     </fonts>
     <dimensions>
         <dim id="scrollbar_size" value="12" />
