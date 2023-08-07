@@ -2,7 +2,7 @@
   "name": "unified-pixel-theme",
   "displayName": "Unified Pixel Theme",
   "description": "Aseprite multilingual supported pixel theme, based on default theme.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "Aseprite Quest",
     "url": "https://github.com/aseprite-quest"
