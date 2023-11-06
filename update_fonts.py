@@ -56,7 +56,7 @@ def main():
         shutil.rmtree(fonts_dir)
         os.makedirs(fonts_dir)
 
-    for font_size in [8, 10]:
+    for font_size in [10]:
         asset_file_name = f'fusion-pixel-font-{font_size}px-proportional-ttf-v{latest_version}.zip'
         asset_file_path = os.path.join(download_dir, asset_file_name)
         if not os.path.exists(asset_file_path):
