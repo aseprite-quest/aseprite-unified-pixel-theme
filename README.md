@@ -6,10 +6,6 @@
 
 Font use [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font).
 
-## Usage
-
-Download the latest version `.aseprite-extension` file in the [Releases](https://github.com/aseprite-quest/aseprite-unified-pixel-theme/releases), and then follow the [Documentation](https://www.aseprite.org/docs/extensions/) to install it.
-
 ## Preview
 
 ### English
@@ -47,10 +43,6 @@ Download the latest version `.aseprite-extension` file in the [Releases](https:/
 ### Italian
 
 ![it](docs/preview/it.png)
-
-## Dependencies
-
-- [Requests](https://github.com/psf/requests)
 
 ## References
 
