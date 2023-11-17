@@ -19,9 +19,11 @@ def main():
 
     package_json_file_path = os.path.join(data_dir, 'package.json')
     with open(package_json_file_path, 'r', encoding='utf-8') as file:
-        version: str = json.loads(file.read())['version']
+        package_info: dict = json.loads(file.read())
 
-    extension_file_path = os.path.join(releases_dir, f'unified-pixel-theme-v{version}.aseprite-extension')
+    package_name: str = package_info['name']
+    package_version: str = package_info['version']
+    extension_file_path = os.path.join(releases_dir, f'{package_name}-v{package_version}.aseprite-extension')
     with zipfile.ZipFile(extension_file_path, 'w') as file:
         for file_dir, _, file_names in os.walk(data_dir):
             for file_name in file_names:
