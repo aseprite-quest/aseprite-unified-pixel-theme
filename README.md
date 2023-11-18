@@ -50,8 +50,8 @@ Font use [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font).
 
 ## License
 
-Theme is under the [Creative Commons Attribution 4.0 International License](data/LICENSE.txt).
+Theme under the Creative Commons Attribution 4.0 International License.
 
-Fonts are under the [SIL OPEN FONT LICENSE Version 1.1](data/fonts/OFL.txt).
+Fonts under the [SIL OPEN FONT LICENSE Version 1.1](https://github.com/TakWolf/fusion-pixel-font/blob/master/LICENSE-OFL).
 
-Scripts are under the [MIT License](LICENSE).
+Scripts under the [MIT License](LICENSE).
